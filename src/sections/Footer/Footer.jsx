@@ -1,10 +1,11 @@
 import styles from './FooterStyles.module.css';
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <section id="footer" className={styles.container}>
       <p>
-        &copy; 2024 Harris johnsen. <br />
+        &copy; {currentYear} Aditi Kumari. <br />
         All rights reserved.
       </p>
     </section>

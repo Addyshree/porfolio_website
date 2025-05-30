@@ -8,6 +8,10 @@
     align-self: center;
     background-color: var(--project-card-bg);
     border-radius: 20px;
+    background-size: cover;
+    height: 250px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   a {

@@ -1,8 +1,6 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import weather from "../../assets/image.png"
+import chatapp from "../../assets/chatapp.png"
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,29 +9,18 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={weather}
+          link="https://github.com/Addyshree/Weather-Forecast.git"
+          h3="Weather Forecast App"
+          p="Technologies used:  HTML, CSS, JavaScript, API integration"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={chatapp}
+          link="https://github.com/Addyshree/Chat-App"
+          h3="Realtime Chat App"
+          p="Technologies used: React.js, Socket.io , Node.js, Expree.js"
         />
-        <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
-        />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
-        />
+        
       </div>
     </section>
   );
